@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Zzm</RootNamespace>
     <AssemblyName>Zzm</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -98,7 +98,6 @@
     <Content Include="Test\connectionMySql.aspx" />
     <Content Include="Test\GetIpAddress.aspx" />
     <Content Include="Test\test.aspx" />
-    <Content Include="Test\sqlserver数组.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -174,13 +173,6 @@
     </Compile>
     <Compile Include="Test\test.aspx.designer.cs">
       <DependentUpon>test.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Test\sqlserver数组.aspx.cs">
-      <DependentUpon>sqlserver数组.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Test\sqlserver数组.aspx.designer.cs">
-      <DependentUpon>sqlserver数组.aspx</DependentUpon>
     </Compile>
     <Compile Include="Common\Message.cs" />
     <Compile Include="Common\MyRoleProvider.cs" />
